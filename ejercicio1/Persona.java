@@ -49,8 +49,17 @@ public class Persona {
         this.edad=edad;
     }
 
+    public void hablar(){
+        System.out.println("La persona está hablando.");
+    }
+
+    public void comer(){
+        System.out.println("La persona está comiendo.");
+    }
+
     @Override
     public String toString(){
-        return "NIF: "+nif+", Altura: "+altura+"cm y Edad: "+edad+".";
+        return " NIF: "+nif+", Altura: "+altura+"cm y Edad: "+edad+".";
+        
     }
 }
